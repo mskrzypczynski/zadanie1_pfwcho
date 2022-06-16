@@ -59,4 +59,11 @@ następującą funkcjonalność:
     ```
     ![image](https://user-images.githubusercontent.com/49763989/174056747-c0918403-7689-44b7-be4f-7df9de837048.png)
 
+    d) sprawdzenia, ile warstw posiada zbudowany obraz.
     
+    ```bash
+    docker history zadanie1_pfwcho:v1
+    ```
+
+    ![image](https://user-images.githubusercontent.com/49763989/174057062-3e9bd64e-93b0-4936-85de-4525671359db.png)
+
