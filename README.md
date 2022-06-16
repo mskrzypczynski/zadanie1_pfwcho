@@ -14,10 +14,12 @@ następującą funkcjonalność:
     docker-compose up --build
     ```
     ![image](https://user-images.githubusercontent.com/49763989/174054190-f37de31b-67a3-4756-a859-1070e8d24342.png)
+    
+    wyświetlenie logów z kontenera:
     ```bash
      docker logs -f zadanie1_pfwcho_web_1
     ```
-    wyświetlenie logów z kontenera:
+    
     ![image](https://user-images.githubusercontent.com/49763989/174054498-8650c146-c246-4eb3-8ea0-c4da46f9ea32.png)
 
 
