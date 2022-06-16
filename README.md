@@ -1,4 +1,4 @@
-git remote set-url origin git@github.com:username/your-repository.git# zadanie1_pfwcho
+# zadanie1_pfwcho
 Zadanie1 z przedmiotu Programowanie Fullstack w Chmurze Obliczeniowej
 #### Repozytorium DockerHub: https://hub.docker.com/repository/docker/mikczynski/zadanie1_pfwcho
 
