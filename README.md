@@ -76,10 +76,15 @@ Do zbudowania obrazów na podane architektury użyto docker buildx, kontenera mu
 
 Polecenia:
 ```bash
+#uruchomienie kontenera z qemu
 docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+#utworzenie buildera
 docker buildx create --name zadanie1_builder
+#wybranie buildera do budowania obrazu
 docker buildx use zadanie1_builder
+#zbudowanie obrazu na 3 architektury i wysłanie do repozytorium
 docker buildx build -f Dockerfile -t mikczynski/zadanie1_pfwcho:v1 --platform linux/amd64,linux/arm/v7,linux/arm/v8 --push .
+#sprawdzenie czy obrazy zostały utworzone
 docker buildx imagetools inspect mikczynski/zadanie1_pfwchho:1
 ```
 
@@ -88,5 +93,7 @@ docker buildx imagetools inspect mikczynski/zadanie1_pfwchho:1
 ![image](https://user-images.githubusercontent.com/49763989/174058613-1346a4cd-59a3-48aa-9693-c2e231d2a05e.png)
 
 
+### CZĘŚĆ DODATKOWA
 
+- z wykorzystaniem GitHubActions
 
