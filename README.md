@@ -31,11 +31,15 @@ następującą funkcjonalność:
 
 2. Opracować plik Dockerfile, który pozwoli na zbudowanie obrazu kontenera realizującego funkcjonalność opisaną w punkcie 1. Przy ocenie brane będzie sposób opracowania tego pliku (dobór obrazu bazowego, wieloetapowe budowanie obrazu, ewentualne wykorzystanie warstwy scratch, optymalizacja pod kątem funkcjonowania cache-a w procesie budowania). Dockerfile powinien również zawierać informację o autorze tego pliku (ponownie imię i nazwisko studenta).
 
-Plik Dockerfile:  
-![image](https://user-images.githubusercontent.com/49763989/174055270-84b3c355-9f1e-46e6-8d5b-667a6eaa81e0.png)
+    Plik Dockerfile:  
+    ![image](https://user-images.githubusercontent.com/49763989/174055270-84b3c355-9f1e-46e6-8d5b-667a6eaa81e0.png)
 
-Plik docker-compose.yml:  
-![image](https://user-images.githubusercontent.com/49763989/174055419-428325f8-f64a-4e28-9206-20d0df02033d.png)
-
-
+    Plik docker-compose.yml:  
+    ![image](https://user-images.githubusercontent.com/49763989/174055419-428325f8-f64a-4e28-9206-20d0df02033d.png)
     
+ 3. Należy podać polecenia niezbędne do:
+
+    a) zbudowania opracowanego obrazu kontenera,
+    ```bash
+    docker-compose build
+    ```
