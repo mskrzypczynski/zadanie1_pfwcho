@@ -1,4 +1,4 @@
-# zadanie1_pfwcho
+git remote set-url origin git@github.com:username/your-repository.git# zadanie1_pfwcho
 Zadanie1 z przedmiotu Programowanie Fullstack w Chmurze Obliczeniowej
 #### Repozytorium DockerHub: https://hub.docker.com/repository/docker/mikczynski/zadanie1_pfwcho
 
@@ -94,8 +94,12 @@ docker buildx imagetools inspect mikczynski/zadanie1_pfwchho:1
 ![image](https://user-images.githubusercontent.com/49763989/174057656-48136de9-ae59-461e-8211-96c14317aec9.png)
 ![image](https://user-images.githubusercontent.com/49763989/174058613-1346a4cd-59a3-48aa-9693-c2e231d2a05e.png)
 
+Widok z repozytorium dockerhub:
+![image](https://user-images.githubusercontent.com/49763989/174062032-1f6ce70d-1c51-4180-bf38-b32ab8cc10f4.png)
+
 
 ### CZĘŚĆ DODATKOWA
 
 - z wykorzystaniem GitHubActions
+- 
 
