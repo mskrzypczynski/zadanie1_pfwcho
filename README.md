@@ -67,3 +67,26 @@ następującą funkcjonalność:
 
     ![image](https://user-images.githubusercontent.com/49763989/174057062-3e9bd64e-93b0-4936-85de-4525671359db.png)
 
+4. Zbudować obrazy kontenera z aplikacją opracowaną w punkcie nr 1, które będą pracował na
+architekturach: linux/arm/v7, linux/arm64/v8 oraz linux/amd64. Obrazy te należy przesłać do
+swojego repozytorium na DockerHub. W sprawozdaniu należy podać wykorzystane instrukcje wraz
+z wynikiem ich działania I ewentualnymi komentarzami.
+
+Do zbudowania obrazów na podane architektury użyto docker buildx, kontenera multiarch/qemu-user-static.
+
+Polecenia:
+```bash
+docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+docker buildx create --name zadanie1_builder
+docker buildx use zadanie1_builder
+docker buildx build -f Dockerfile -t mikczynski/zadanie1_pfwcho:v1 --platform linux/amd64,linux/arm/v7,linux/arm/v8 --push .
+docker buildx imagetools inspect mikczynski/zadanie1_pfwchho:1
+```
+
+![image](https://user-images.githubusercontent.com/49763989/174058679-74c2f590-70c2-46c6-9cdf-bc537df6b2a6.png)
+![image](https://user-images.githubusercontent.com/49763989/174057656-48136de9-ae59-461e-8211-96c14317aec9.png)
+![image](https://user-images.githubusercontent.com/49763989/174058613-1346a4cd-59a3-48aa-9693-c2e231d2a05e.png)
+
+
+
+
