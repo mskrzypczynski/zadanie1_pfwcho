@@ -101,5 +101,9 @@ Widok z repozytorium dockerhub:
 ### CZĘŚĆ DODATKOWA
 
 - z wykorzystaniem GitHubActions
-- 
+
+plik .yml w katalogu .github/workflows
+
+![image](https://user-images.githubusercontent.com/49763989/174062636-6a8e7842-d9ba-4a01-ae06-6aca776fc70a.png)
+
 
