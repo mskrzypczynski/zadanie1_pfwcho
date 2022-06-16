@@ -23,4 +23,7 @@ następującą funkcjonalność:
     ![image](https://user-images.githubusercontent.com/49763989/174054498-8650c146-c246-4eb3-8ea0-c4da46f9ea32.png)
 
 
-    b) po uruchomieniu kontenera, serwer pozostawia w logach informację o dacie uruchomienia, imieniu i nazwisku autora serwera (imię i nazwisko studenta) oraz porcie TCP, na którym serwer nasłuchuje na zgłoszenia klienta.
+    b) na podstawie adresu IP klienta łączącego się z serwerem, w przeglądarce powinna zostać wyświetlona strona informująca o adresie IP klienta i na podstawie tego adresu IP, o dacie i godzinie w jego strefie czasowej.
+    ![image](https://user-images.githubusercontent.com/49763989/174054892-8ae2947d-db80-45df-83cf-e50dd8bee533.png)
+
+    
