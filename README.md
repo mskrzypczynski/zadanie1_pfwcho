@@ -102,8 +102,25 @@ Widok z repozytorium dockerhub:
 
 - z wykorzystaniem GitHubActions
 
-plik .yml w katalogu .github/workflows
+Utworzono plik .yml w katalogu .github/workflows
+
+Utworzenie secrets dla repozytorium z wartosciami z dockerhub:
+
+![image](https://user-images.githubusercontent.com/49763989/174063548-70244e6d-554b-4f87-a914-c4d468c2c6a4.png)
 
 ![image](https://user-images.githubusercontent.com/49763989/174062636-6a8e7842-d9ba-4a01-ae06-6aca776fc70a.png)
+
+Wykonanie action:
+![image](https://user-images.githubusercontent.com/49763989/174063678-de0edd35-3d17-4b13-902d-e4ee79553d68.png)
+
+- z przesłaniem danych nie na DockerHub a na repozytorium GitHub wraz z krótkim opisem konfiguracji GitHub Container Registry
+
+Utworzono plik .yml w katalogu .github/workflows pozwalający na użycie GitHub Container Registry.
+
+![image](https://user-images.githubusercontent.com/49763989/174063743-627bd37f-310d-4d42-ad01-36b2ea8a3600.png)
+
+wykonanie action:
+![image](https://user-images.githubusercontent.com/49763989/174063990-aa1d3a6f-8ad7-420f-ae4d-5cb07cd6d613.png)
+
 
 
