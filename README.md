@@ -1,7 +1,7 @@
 # zadanie1_pfwcho
 Zadanie1 z przedmiotu Programowanie Fullstack w Chmurze Obliczeniowej
 
-## Programowanie Fullstack w Chmurze Oblczeniowej
+## Programowanie Fullstack w Chmurze Obliczeniowej
 ### Sprawozdanie z Zadania 1
 
 ### CZĘŚĆ OBOWIĄZKOWA
