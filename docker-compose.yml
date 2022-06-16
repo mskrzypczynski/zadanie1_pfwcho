@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  web:
+      image: zadanie1_pfwcho:v1
+      build: .
+      command: sh -c "echo 'port Mikołaj Skrzypczyński 8080' && echo `date` && node server.js"
+      volumes:
+        - .:/app/
+        - /app/node_modules
+      ports:
+        - "8080:8080"
