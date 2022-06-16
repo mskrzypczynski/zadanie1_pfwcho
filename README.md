@@ -42,4 +42,12 @@ następującą funkcjonalność:
     a) zbudowania opracowanego obrazu kontenera,
     ```bash
     docker-compose build
-    ```
+    ```  
+    ![image](https://user-images.githubusercontent.com/49763989/174056312-ce42974d-ed92-4eb5-91fe-a51ec11c4e81.png)
+
+    b) uruchomienia kontenera na podstawie zbudowanego obrazu,
+
+    ```bash
+    docker-compose up -d
+    ```  
+    ![image](https://user-images.githubusercontent.com/49763989/174056436-749049fd-700c-4cc9-abd4-b4adfd3238d3.png)
