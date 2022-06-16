@@ -51,3 +51,12 @@ następującą funkcjonalność:
     docker-compose up -d
     ```  
     ![image](https://user-images.githubusercontent.com/49763989/174056436-749049fd-700c-4cc9-abd4-b4adfd3238d3.png)
+    
+    c) sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera (patrz: punkt 1a),
+
+    ```bash
+    docker logs -f zadanie1_pfwcho_web_1
+    ```
+    ![image](https://user-images.githubusercontent.com/49763989/174056747-c0918403-7689-44b7-be4f-7df9de837048.png)
+
+    
